@@ -41,7 +41,7 @@ import org.mockito.MockitoAnnotations;
 import com.netflix.zuul.context.RequestContext;
 
 /**
- * Some handy methods for workign with HTTP requests
+ * Some handy methods for working with HTTP requests
  * @author Mikey Cohen
  * Date: 2/10/12
  * Time: 8:22 AM
@@ -238,7 +238,7 @@ public class HTTPRequestUtils {
      * return true if the client requested gzip content
      *
      * @param contentEncoding a <code>String</code> value
-     * @return true if the content-encoding param containg gzip
+     * @return true if the content-encoding param contain gzip
      */
     public boolean isGzipped(String contentEncoding) {
         return contentEncoding.contains("gzip");

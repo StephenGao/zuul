@@ -16,6 +16,8 @@ dependencies {
     compile 'org.apache.httpcomponents:httpclient:4.5'
     providedCompile 'javax.servlet:servlet-api:2.5'
 
+    compile 'org.slf4j:slf4j-nop:1.7.25'
+
     def tomcatVersion = '8.0.23'
     tomcat "org.apache.tomcat.embed:tomcat-embed-core:${tomcatVersion}",
             "org.apache.tomcat.embed:tomcat-embed-logging-juli:${tomcatVersion}",
